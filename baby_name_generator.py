@@ -88,7 +88,12 @@ class BabyNameGenerator(object):
         return names, weights
 
     def generateName(self):
-        """TODO Docstring
+        """Generate a name and print it to the screen in multiple formats.
+
+        Formats printed include:
+        First Middle Last
+        First Last
+        Initials
         """
 
         weights = self.w_firsts if self.use_weights else None

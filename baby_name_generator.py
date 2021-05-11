@@ -105,7 +105,9 @@ class BabyNameGenerator(object):
         print()
 
     def loadFirsts(self, names):
-        """TODO Docstring
+        """Load first names. Input can be a single name or a csv file with many.
+
+        :param string names: A file path or a single name
         """
 
         if os.path.exists(names):
